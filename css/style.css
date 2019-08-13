@@ -1,0 +1,90 @@
+body {
+  font-family: 'Verdana', sans-serif;
+}
+
+/* Header */
+.header {
+  background-image: url(../img/moon.jpg);
+  background-size: cover;
+  padding-top: 70px;
+  padding-bottom: 260px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.header__logo,
+.header__search-text,
+.icon-search,
+.icon-menu {
+  color: white;
+}
+
+.header__logo-text {
+  font-family: 'Century', serif;
+}
+
+.header__search-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.header__search-text {
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  margin: 0px 8px;
+}
+
+.header__logo-text,
+.header__search-text {
+  text-transform: lowercase;
+}
+
+.icon-search {
+  font-size: 18px;
+}
+
+.icon-menu {
+  font-size: 24px;
+}
+
+/* Header. Main */
+.main__wrap {
+  padding-top: 150px;
+}
+
+.main__text,
+.main__subtext {
+  color: white;
+  font-weight: bold;
+}
+
+.main__text-inner {
+  position: relative;
+}
+
+.blend-mode {
+  position: absolute;
+  top: 0;
+  color: rgba(0, 0, 0, 0.55);
+  mix-blend-mode: overlay;
+}
+
+.normal-mode {
+  color: transparent;
+}
+
+.main__text {
+  font-size: 213px;
+  -webkit-text-stroke-width: 2px !important;
+  -webkit-text-stroke-color: white;
+}
+
+.main__subtext {
+  font-size: 80px;
+}
+
+/* Делает текст больше */
+.font-bigger {
+  font-size: 173px;
+}
